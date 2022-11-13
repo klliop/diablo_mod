@@ -1,0 +1,74 @@
+{
+    "type": "BankPanel", "name": "BankOriginalLayout",
+    "fields": {
+        "priority": 5,
+        "rect": { "x": -2556, "y": -651, "width": 1162, "height": 1507 }, //보관함위치조정
+        "anchor": { "x": 1, "y": 0.397 },
+    },
+    "children": [
+        {
+            "type": "ClickCatcherWidget", "name": "click_catcher",
+            "fields": {
+                "rect": "$PanelClickCatcherRect"
+            },
+        },
+        {
+            "type": "ImageWidget", "name": "background",
+            "fields": {
+                "filename": "PANEL\\Stash\\Classic_Stash_Panel",
+            },
+        },
+        /*{
+            "type": "ImageWidget", "name": "LeftHinge", //오른쪽힌지끔
+            "fields": {
+                "rect": "$LeftHingeRect",
+                "filename": "$LeftHingeSprite"
+            },
+        },*/
+        {
+            "type": "TextBoxWidget", "name": "title",
+            "fields": {
+                "rect": "$InGamePanelTitleRect",
+                "style": "$StyleTitleBlock",
+                "text": "@stash",
+            },
+        },
+        {
+            "type": "TextBoxWidget", "name": "gold_amount",
+            "fields": {
+                "rect": { "x": 487, "y": 1306, "width": 249, "height": 48 },
+                "style": "$StyleGoldAmount",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "gold_withdraw",
+            "fields": {
+                "rect": { "x": 427, "y": 1303 },
+                "filename": "PANEL\\GoldButton",
+                "hoveredFrame": 3,
+                "tooltipString": "@strGoldWithdraw",
+                "onClickMessage": "BankPanelMessage:Withdraw",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "close", //닫기버튼조정
+            "fields": {
+                "rect": { "x": 1163, "y": 1425 },
+                "filename": "PANEL\\closebtn_4x",
+                "hoveredFrame": 3,
+                "tooltipString": "@strClose",
+                "sound": "cursor_close_window_hd",
+                "onClickMessage": "BankPanelMessage:Close",
+            },
+        },
+        {
+            "type": "InventoryGridWidget", "name": "grid",
+            "fields": {
+                "rect": { "x": 288, "y": 749 },
+                "cellCount": { "x": 6, "y": 4 },
+                "cellSize": "$ItemCellSize",
+                "gemSocketFilename": "PANEL\\gemsocket",
+            },
+        },
+    ]
+}
