@@ -1,0 +1,32 @@
+{
+    "type": "CharacterDifficultyModal", "name": "CharacterDifficultyModal",
+    "fields": {
+        "anchor": { "x": 0.5, "y": 0.5 },
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "Frame",
+            "fields": {
+                "rect": { "x": -272, "y": -270 },
+                "filename": "FrontEnd/HD/Final/FrontEnd_DifficultyModal"
+            },
+            "children": [
+                {
+                    "type": "ButtonWidget", "name": "Hell",
+                    "fields": {
+                        "rect": { "x": -236, "y": 302, "width": 408 },
+                        "anchor": { "x": 0.5 },
+                        "filename": "FrontEnd/HD/Final/FrontEnd_ButtonMed",
+                        "hoveredFrame": 3,
+                        "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
+                        "focusIndicatorOffset": { "x": 0, "y": 0 },
+                        "textString": "@strCreateGameHellText",
+                        "onClickMessage": "CharacterSelect:LoadCharacter:2",
+                        "textColor": "$LightButtonTextColor",
+                        "text/style" : "$StyleFEButtonText"
+                    }
+                }
+            ]
+        }
+    ]
+}
