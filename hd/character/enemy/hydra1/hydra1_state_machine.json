@@ -1,0 +1,69 @@
+{
+  "dependencies": {
+    "particles": [],
+    "models": [],
+    "skeletons": [],
+    "animations": [
+      {
+        "path": "data/hd/character/enemy/hydra1/animation/attack1.animation"
+      },
+      {
+        "path": "data/hd/character/enemy/hydra1/animation/attack2.animation"
+      },
+      {
+        "path": "data/hd/character/enemy/hydra1/animation/block.animation"
+      },
+      {
+        "path": "data/hd/character/enemy/hydra1/animation/cast.animation"
+      },
+      {
+        "path": "data/hd/character/enemy/hydra1/animation/dead.animation"
+      },
+      {
+        "path": "data/hd/character/enemy/hydra1/animation/death.animation"
+      },
+      {
+        "path": "data/hd/character/enemy/hydra1/animation/gethit.animation"
+      },
+      {
+        "path": "data/hd/character/enemy/hydra1/animation/knockback.animation"
+      },
+      {
+        "path": "data/hd/character/enemy/hydra1/animation/neutral.animation"
+      },
+      {
+        "path": "data/hd/character/enemy/hydra1/animation/run.animation"
+      },
+      {
+        "path": "data/hd/character/enemy/hydra1/animation/skill1.animation"
+      },
+      {
+        "path": "data/hd/character/enemy/hydra1/animation/skill2.animation"
+      },
+      {
+        "path": "data/hd/character/enemy/hydra1/animation/skill3.animation"
+      },
+      {
+        "path": "data/hd/character/enemy/hydra1/animation/skill4.animation"
+      },
+      {
+        "path": "data/hd/character/enemy/hydra1/animation/walk.animation"
+      }
+    ],
+    "textures": [],
+    "physics": [],
+    "json": [],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "type": "AnimationStateMachine",
+  "name": "hydra1_statemachine",
+  "unitType": "UNIT_MONSTER",
+  "animations": [
+  ],
+  "states": [
+  ],
+  "transitions": [
+  ]
+}
