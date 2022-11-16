@@ -279,7 +279,7 @@
             "options": { "pipeCharacterBehavior": "handle", "newlineHandling": "reversed" },
         },
         "padding": [ 20, 12, 20, 12 ],
-        "inGameTargetPadding": [ 7, 1, 7, 1 ],
+        "inGameTargetPadding": [ 0, 0, 0, 0 ],
         "drawBorder": false,
         "centeredOnAnchor": true,
         "hp": 0,
